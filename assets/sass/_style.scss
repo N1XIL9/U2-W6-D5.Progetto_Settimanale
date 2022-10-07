@@ -5,6 +5,16 @@
 
 .navbar {
 @include stylenavbar;
+position: sticky;
+top: 0;
+z-index: 10;
+}
+
+.nomemio {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(60, 60, 60)
 }
 
 .spanC {
@@ -27,17 +37,16 @@
     padding-bottom: 10px;
 
     p {
-        padding: 10px;
+        padding: 15px;
     }
 
     h1{
-        padding: 10px;
+        padding: 15px;
     }
  
     button {
-        margin-left: 10px;
+        margin-left: 15px;
     }
-
 }
 
 #myBtn {
@@ -57,4 +66,24 @@
   color: black;
 }
   
+.card {
+    margin: 15px;
+    width: 200px;
+}
 
+.card:hover {
+    box-shadow: 1px 1px 4px 1px #e0e0e0;
+    cursor: pointer;
+}
+
+.section-margin {
+    margin-top: 100px;
+}
+
+.section-partnership {
+    padding-bottom: 40px;
+}
+
+.carousel-item {
+    height: 50vh;
+}

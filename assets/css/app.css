@@ -10779,10 +10779,20 @@ textarea.form-control-lg {
 .navbar {
   background-color: #e0e0e0;
   box-shadow: 1px 1px 4px 1px black;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nomemio {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(60, 60, 60);
 }
 
 .spanC {
-  color: black;
+  color: rgb(0, 53, 214);
 }
 
 #myVideo {
@@ -10800,13 +10810,13 @@ textarea.form-control-lg {
   padding-bottom: 10px;
 }
 .section-one p {
-  padding: 10px;
+  padding: 15px;
 }
 .section-one h1, .section-one .h1 {
-  padding: 10px;
+  padding: 15px;
 }
 .section-one button {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 #myBtn {
@@ -10824,4 +10834,26 @@ textarea.form-control-lg {
   border: 1px solid black;
   background: #ddd;
   color: black;
+}
+
+.card {
+  margin: 15px;
+  width: 200px;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 4px 1px #e0e0e0;
+  cursor: pointer;
+}
+
+.section-margin {
+  margin-top: 100px;
+}
+
+.section-partnership {
+  padding-bottom: 40px;
+}
+
+.carousel-item {
+  height: 50vh;
 }
