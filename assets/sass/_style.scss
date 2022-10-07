@@ -33,19 +33,20 @@ z-index: 10;
 }
 
 .section-one {
-    background-color: #e0e0e0;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(126,152,255,1) 100%);
     padding-bottom: 10px;
 
     p {
-        padding: 15px;
+        padding: 20px;
     }
 
     h1{
-        padding: 15px;
+        padding: 20px;
     }
  
     button {
-        margin-left: 15px;
+        margin-left: 20px;
     }
 }
 
@@ -84,6 +85,68 @@ z-index: 10;
     padding-bottom: 40px;
 }
 
-.carousel-item {
-    height: 50vh;
+.carousel-indicators{
+    position: relative;
 }
+
+// CONTACTS
+
+.content-header{
+    font-family: 'Oleo Script', cursive;
+    color:#fc0086;
+    font-size: 45px;
+  }
+  
+  .section-content{
+    text-align: center; 
+  
+  }
+  #contact{
+      
+      font-family: 'Teko', sans-serif;
+    padding-top: 60px;
+    width: 100%;
+    width: 100vw;
+    height: 550px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(126,152,255,1) 100%);
+      color : rgb(53, 53, 53);    
+  }
+  .contact-section{
+    padding-top: 40px;
+  }
+  .contact-section .col-md-6{
+    width: 50%;
+  }
+  
+  .form-line{
+    border-right: 1px solid #B29999;
+  }
+  
+  .form-group{
+    margin-top: 10px;
+  }
+  label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+  }
+  .form-control{
+    font-size: 1.3em;
+    color: #080808;
+  }
+  textarea.form-control {
+      height: 135px;
+     /* margin-top: px;*/
+  }
+  
+  .submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: rgb(53, 53, 53);
+  
+  }
+
+

@@ -8,6 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/app.css">
     <title>FMScore</title>
@@ -16,9 +22,7 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand icon-brand" href="#">FMScore <br>
-                <p class="nomemio">Nicola Lerra</p>
-            </a>
+            <a class="navbar-brand icon-brand" href="#">FMScore</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,9 +36,12 @@
                         <a class="nav-link" href="#partners">Partners</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
                     </li>
-                    <li class="nav-item d-md-none ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                    <li class="nav-item ">
                         <a class="nav-link" href="https://www.instagram.com/nicolalerra" target="_blank"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-instagram" viewBox="0 0 16 16">
@@ -83,7 +90,7 @@
     </section>
 
 
-    <!-- PARTNERSHIP  -->
+    <!-- PARTNERS  -->
     <span id="partners"></span>
 
     <section class=" section-partnership container">
@@ -93,97 +100,149 @@
         </div>
 
         <div class="d-flex flex-wrap flex-sm-wrap justify-content-center m-5">
-            <div class="container d-flex flex-wrap">
-                <div class="card border-0 rounded-4">
-                    <a href="https://www.abbeyroad.com" target="_blank"><img class="rounded-4" src="./assets/img/1.png"
-                            class="card-img-top" alt="abbey"></a>
-                </div>
 
-                <div class="card border-0 rounded-4">
-                    <a href="https://www.marvel.com"><img class="rounded-4" src="./assets/img/2.png"
-                            class="card-img-top" alt="marvel"></a>
-                </div>
+            <!--da fare breakpoint -->
+            <div class="card border-0 rounded-4">
+                <a href="https://www.abbeyroad.com" target="_blank"><img class="rounded-4" src="./assets/img/1.png"
+                        class="card-img-top" alt="abbey"></a>
+            </div>
 
-                <div class="card border-0 rounded-4">
-                    <a href="https://www.dreamworks.com"><img class="rounded-4" src="./assets/img/3.png"
-                            class="card-img-top" alt="dream"></a>
-                </div>
+            <div class="card border-0 rounded-4">
+                <a href="https://www.marvel.com"><img class="rounded-4" src="./assets/img/2.png" class="card-img-top"
+                        alt="marvel"></a>
+            </div>
 
-                <div class="card border-0 rounded-4">
-                    <a href="https://www.hmmawards.com"><img class="rounded-4" src="./assets/img/4.png"
-                            class="card-img-top" alt="hmma"></a>
-                </div>
+            <div class="card border-0 rounded-4">
+                <a href="https://www.dreamworks.com"><img class="rounded-4" src="./assets/img/3.png"
+                        class="card-img-top" alt="dream"></a>
+            </div>
 
-                <div class="card border-0 rounded-4">
-                    <a href="http://sony.music"><img class="rounded-4" src="./assets/img/5.png" class="card-img-top"
-                            alt="sony"></a>
-                </div>
+            <div class="card border-0 rounded-4">
+                <a href="https://www.hmmawards.com"><img class="rounded-4" src="./assets/img/4.png" class="card-img-top"
+                        alt="hmma"></a>
+            </div>
 
-                <div class="card border-0 rounded-4">
-                    <a href="http://sony.music"><img class="rounded-4" src="./assets/img/6.png" class="card-img-top"
-                            alt="sony"></a>
-                </div>
+            <div class="card border-0 rounded-4">
+                <a href="http://sony.music"><img class="rounded-4" src="./assets/img/5.png" class="card-img-top"
+                        alt="sony"></a>
+            </div>
+
+            <div class="card border-0 rounded-4">
+                <a href="http://sony.music"><img class="rounded-4" src="./assets/img/6.png" class="card-img-top"
+                        alt="sony"></a>
             </div>
         </div>
-
     </section>
 
-
-
-
-
-
-    <!-- CAROUSEL  -->
+    <!-- TESTIMONIALS  -->
+    <span id="testimonials"></span>
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
-                    class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+        <div class="">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/7.png" class="d-block w-100" alt="...">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon text-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block d-sm-block">
+                        <h5>Brian H.</h5>
+                        <p>Nicola is truly an amazing accomplished composer! I love his sound and style! And if I can
+                            have
+                            my way... I would absolutely love to have him collaborate with me the theme music for my up
+                            coming sci-fi feature film production Aliens Believe Too!.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1664574654521-7faf33eb9086?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                    class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1664575600796-ffa828c5cb6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                    class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/8.png" class="d-block w-100" alt="...">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon text-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <div class="carousel-caption d-none d-md-block d-sm-block">
+                            <h5>Adriana S.</h5>
+                            <p>Beautiful talented composer. Would love to contribute vocals to anything Nicola is a part
+                                of.
+                            </p>
+                        </div>
+                    </div>
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+                </div>
+            </div>
+
+            <!-- CONTACTS -->
+            <section id="contact">
+                <div class="section-content">
+                    <h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s"
+                            data-wow-duration="2s"> Touch with us</span></h1>
+                    <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h3>
+                </div>
+                <div class="contact-section">
+                    <div class="container">
+                        <form class="row">
+                            <div class="col-md-6 form-line">
+                                <div class="form-group">
+                                    <label for="exampleInputUsername">Your name</label>
+                                    <input type="text" class="form-control" id="" placeholder=" Enter Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail">Email Address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail"
+                                        placeholder=" Enter Email id">
+                                </div>
+                                <div class="form-group">
+                                    <label for="telephone">Mobile No.</label>
+                                    <input type="tel" class="form-control" id="telephone"
+                                        placeholder=" Enter 10-digit mobile no.">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="description"> Message</label>
+                                    <textarea class="form-control" id="description"
+                                        placeholder="Enter Your Message"></textarea>
+                                </div>
+                                <div>
+
+                                    <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane"
+                                            aria-hidden="true"></i> Send Message</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+            </section>
+
+            <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
