@@ -1,4 +1,8 @@
-@import url("../../node_modules/bootstrap/scss/bootstrap.scss");
-@import url("./_function.scss");
-@import url("./_style.scss");
+@import "variables";
+@import "mixins";
+@import "function";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "style";
+
+
 

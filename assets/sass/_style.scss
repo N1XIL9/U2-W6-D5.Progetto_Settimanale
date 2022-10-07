@@ -1,0 +1,60 @@
+.icon-brand {
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive; ;
+}
+
+.navbar {
+@include stylenavbar;
+}
+
+.spanC {
+    @include spanColor;
+}
+
+#myVideo {
+    width: 100%;
+
+  .section-one {
+    position: fixed;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+  }
+}
+
+.section-one {
+    background-color: #e0e0e0;
+    padding-bottom: 10px;
+
+    p {
+        padding: 10px;
+    }
+
+    h1{
+        padding: 10px;
+    }
+ 
+    button {
+        margin-left: 10px;
+    }
+
+}
+
+#myBtn {
+  border-radius: 10px;
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+    border: 1px solid black;
+  background: #ddd;
+  color: black;
+}
+  
+
