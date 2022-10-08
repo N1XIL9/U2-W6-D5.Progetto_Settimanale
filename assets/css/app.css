@@ -10941,4 +10941,7 @@ textarea.form-control {
   nav a {
     color: white !important;
   }
+  nav .navbar-toggler-icon {
+    filter: drop-shadow(0px 0px 0px white) !important;
+  }
 }
