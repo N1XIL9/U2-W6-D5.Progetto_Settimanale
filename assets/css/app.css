@@ -10855,10 +10855,6 @@ textarea.form-control-lg {
   padding-bottom: 40px;
 }
 
-.carousel-indicators {
-  position: relative;
-}
-
 .content-header {
   font-family: "Oleo Script", cursive;
   color: #fc0086;
@@ -10918,4 +10914,8 @@ textarea.form-control {
   width: 150px;
   background-color: transparent;
   color: rgb(53, 53, 53);
+}
+
+.footer {
+  padding: 30px;
 }
