@@ -154,11 +154,41 @@ z-index: 10;
 }
 
 // DARK MODE 
-html {
-  background-color: white;
-  color: black;
-  @include darkMode {
-    background-color: black;
-    color: white;
+// html {
+//   background-color: white!important;
+//   color: black!important;
+//   @include darkMode {
+//     background-color: black!important;
+//     color: white!important;
+//   }
+// }
+
+.bi-toggle-off, .bi-toggle-on{
+  font-size: 25px;
+}
+
+@media (prefers-color-scheme: dark){ 
+  body{
+    background: black!important;
+    color: white!important;
   }
+  section{
+    background: black!important;
+    color: white!important;
+  }
+
+  nav{
+    background: black!important;
+    color: white!important;
+    a {
+      color: white!important;
+    }
+
+    button{
+     
+    }
+  }
+
+  
+
 }

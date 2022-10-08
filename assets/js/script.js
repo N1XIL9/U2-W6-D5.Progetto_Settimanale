@@ -14,3 +14,21 @@ function myFunction() {
     btn.innerHTML = "Play";
   }
 }
+
+// DARKMODE
+
+let toggle = document.querySelector(".bi-toggle-off");
+
+// PRIMA OPZIONE
+// toggle.addEventListener("click",clickToggle);
+
+// function clickToggle (){
+//   toggle.classList.toggle("bi-toggle-off");
+//   toggle.classList.toggle("bi-toggle-on");
+// }
+
+// SECONDA OPZIONE
+toggle.addEventListener("click", function () {
+  toggle.classList.toggle("bi-toggle-off");
+  toggle.classList.toggle("bi-toggle-on");
+});

@@ -5,6 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10920,13 +10921,24 @@ textarea.form-control {
   padding: 30px;
 }
 
-html {
-  background-color: white;
-  color: black;
+.bi-toggle-off, .bi-toggle-on {
+  font-size: 25px;
 }
+
 @media (prefers-color-scheme: dark) {
-  html {
-    background-color: black;
-    color: white;
+  body {
+    background: black !important;
+    color: white !important;
+  }
+  section {
+    background: black !important;
+    color: white !important;
+  }
+  nav {
+    background: black !important;
+    color: white !important;
+  }
+  nav a {
+    color: white !important;
   }
 }
