@@ -10919,3 +10919,14 @@ textarea.form-control {
 .footer {
   padding: 30px;
 }
+
+html {
+  background-color: white;
+  color: black;
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+    color: white;
+  }
+}

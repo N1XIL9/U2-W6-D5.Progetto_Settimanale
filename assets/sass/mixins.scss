@@ -6,3 +6,13 @@
 @mixin spanColor {
     color: #b109ff;
 }
+
+// DARK MODE 
+
+@mixin darkMode {
+    @if($darkMode) {
+      @media(prefers-color-scheme: dark) {
+        @content;
+      }
+    }
+  }
