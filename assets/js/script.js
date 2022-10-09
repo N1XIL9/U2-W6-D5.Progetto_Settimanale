@@ -6,7 +6,6 @@ let btn = document.getElementById("myBtn");
 
 // SOUND
 let sound = new Audio("./assets/sound/videosound.m4a");
-sound.stop();
 
 // CREO LA FUNZIONE PAUSA E PALY E CAMBIO IL TESTO DEL PULSANTE
 function myFunction() {
