@@ -10822,20 +10822,20 @@ textarea.form-control-lg {
 }
 
 #myBtn {
-  border-radius: 10px;
-  width: 200px;
+  position: relative;
+  bottom: 6.5vh;
+  left: -20px;
   font-size: 18px;
+  width: 100%;
   padding: 10px;
-  border: none;
-  background: #000;
+  border: 0px;
+  background: rgba(0, 0, 0, 0.3);
   color: #fff;
   cursor: pointer;
 }
 
 #myBtn:hover {
-  border: 1px solid black;
-  background: #ddd;
-  color: black;
+  background: rgba(221, 221, 221, 0.2);
 }
 
 .card {
@@ -10944,4 +10944,22 @@ textarea.form-control {
   nav .navbar-toggler-icon {
     filter: drop-shadow(0px 0px 0px white) !important;
   }
+}
+.darkMode body {
+  background: black !important;
+  color: white !important;
+}
+.darkMode section {
+  background: black !important;
+  color: white !important;
+}
+.darkMode nav {
+  background: black !important;
+  color: white !important;
+}
+.darkMode nav a {
+  color: white !important;
+}
+.darkMode nav .navbar-toggler-icon {
+  filter: drop-shadow(0px 0px 0px white) !important;
 }
