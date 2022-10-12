@@ -143,7 +143,7 @@ z-index: 10;
     float: right;
     width: 150px;
     background-color: transparent;
-    color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
   
   }
 
@@ -163,7 +163,7 @@ z-index: 10;
 
 @media (prefers-color-scheme: dark){ 
   body{
-    background: black!important;
+    background-color: black!important;
     color: white!important;
   }
   section{
@@ -184,9 +184,12 @@ z-index: 10;
   }
 }
 
+
 .darkMode {
   @include darkMode;
 }
+
+
 
 // ANIMAZIONE FADE 
 
