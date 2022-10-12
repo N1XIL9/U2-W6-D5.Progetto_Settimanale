@@ -187,3 +187,49 @@ z-index: 10;
 .darkMode {
   @include darkMode;
 }
+
+// ANIMAZIONE FADE 
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 0.8s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.active.fade-left {
+  animation: fade-left 0.8s ease-in;
+}
+
+.active.fade-top {
+  animation: fade-top 0.8s ease-in;
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-top {
+  0% {
+    transform: translateY(-150px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
